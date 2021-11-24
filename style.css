@@ -15,3 +15,45 @@
 body {
     background-color: var(--bg_color);
 }
+
+.banner {
+    /* width: 100%; */
+}
+
+.hero {
+    align-items: center;
+    display: flex;
+    height: auto;
+}
+
+.hero .left_hero {
+    width: 45%;
+    color: #fff;
+    padding: 6.1rem 2rem;
+    background-color: var(--pri_font-color);
+}
+
+.hero .left_hero h2 {
+    font-size: 3rem;
+}
+
+.hero .left_hero p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.hero .left_hero a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 1rem;
+}
+
+.hero .left_hero a::after {
+    content: "-->";
+    margin-left: 1rem;
+}
